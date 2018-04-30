@@ -2,10 +2,12 @@
   "name": "toDo",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://lahanna.github.io/todo",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "lodash": "^4.15.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
@@ -14,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

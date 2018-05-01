@@ -84,8 +84,8 @@ input{
     width: 20%;
     padding: 14px 22px;
     border: 1px solid #c5c5c5;
+    box-shadow: none;
     border-radius: 2px;
-
 }
 
 .addButton{

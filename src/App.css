@@ -11,24 +11,25 @@
 
 }
 
-.removeButton{
+.removeButton {
     border: 0;
     text-decoration: none;
     font-weight: 300;
-    color:#a7a7a7;
+    color: #8a8888;
     font-size: 11px;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato,sans-serif;
     cursor: pointer;
     position: absolute;
-    letter-spacing: 0.1rem;
-    left:0;
+    letter-spacing: .1rem;
+    left: 0;
     text-transform: uppercase;
     width: 100%;
-    bottom: 0px;
-    padding: 0.6rem 0;
-    border-top: 1px solid #ebdddd;
-    background: rgb(254, 240, 241);
-    transition: background 0.5s ease-in-out;
+    bottom: 0;
+    padding: .6rem 0;
+    border-top: 1px solid #f1e1e1;
+    background: #fef0f1;
+    -webkit-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
 }
 
 .removeButton:hover{
